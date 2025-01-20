@@ -1,0 +1,111 @@
+:root {
+  --white: #f7f7f7;
+  --sky_blue: #01acfd;
+  --orange: #fea301;
+  --black: #111111;
+}
+.quicksand-normal-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* utility classes */
+
+.primary-bg {
+  background: rgb(247, 247, 247);
+}
+
+.display-flex {
+  display: flex;
+}
+
+.link-font-size {
+  font-size: 1.25rem;
+}
+
+.link-font-home {
+  font-weight: 700;
+  color: var(--orange);
+}
+
+/* header section  */
+header {
+    width: 100%;
+}
+.nav-container {
+  width: 1100px;
+  height: 100px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* header nav div {
+  align-items: center;
+} */
+
+.nav-logo{
+    align-items: center;
+}
+
+.logo {
+  width: 62px;
+  height: 62px;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav-title {
+  font-size: 2rem;
+  color: var(--black);
+}
+.nav-item {
+  list-style: none;
+}
+
+.nav-links {
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  margin-left: 32px;
+}
+
+.link-font-about {
+  color: var(--sky_blue);
+  font-weight: 500;
+}
+
+.link-font-facilities {
+  color: #05d4df;
+  font-weight: 500;
+}
+
+.link-font-admission {
+  color: #5d58ef;
+  font-weight: 500;
+}
+
+.nav-btn {
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  background-color: var(--orange);
+  margin-left: 186px;
+  padding: 10px 60px;
+}
+
+.nav-btn a {
+  color: var(--white);
+  font-weight: 600;
+  text-decoration: none;
+}
