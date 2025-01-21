@@ -25,11 +25,11 @@
   display: flex;
 }
 
-.flex-property{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 55px 40px;
+.flex-property {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 55px 40px;
 }
 
 .link-font-size {
@@ -174,35 +174,34 @@ header {
 
 /* main section  */
 
-main{
-    width: 1260px;
-    margin: 0px auto;
+main {
+  width: 1260px;
+  margin: 0px auto;
 }
 
 /* curriculum section  */
 
-.Curriculum{
-    background-image: url(../assets/bg.png);
-    background-repeat: no-repeat;
-
+.Curriculum {
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
 }
 
-.curriculum-container{
-    padding: 0px 110px;
-    margin:0px auto;
-    text-align: center;
+.curriculum-container {
+  padding: 0px 110px;
+  margin: 0px auto;
+  text-align: center;
 }
 
 .curriculum-title {
- padding: 50px 0px;
+  padding: 50px 0px;
   font-size: 2.8rem;
   font-weight: 700;
 }
 
-.curriculum-items{
-    justify-content: space-between;
-    gap: 30px;
-    align-items: center;
+.curriculum-items {
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
 }
 
 .curriculum-item-1 {
@@ -216,7 +215,6 @@ main{
       rgba(255, 255, 255, 0) 40%
     ),
     rgb(255, 255, 255);
-
 }
 
 .curriculum-item-2 {
@@ -245,35 +243,75 @@ main{
     rgb(255, 255, 255);
 }
 
-.curriculum-item-img{
-    height: 100px;
-    width: 100px;
+.curriculum-item-img {
+  height: 100px;
+  width: 100px;
 }
 
-.curriculum-item-title{
-    font-size: 1.5rem;
-    margin-top: 32px;
+.curriculum-item-title {
+  font-size: 1.5rem;
+  margin-top: 32px;
 }
 
-.curriculum-item-description{
-    font-size: 0.8rem;
-    margin: 32px 0px;
+.curriculum-item-description {
+  font-size: 0.8rem;
+  margin: 32px 0px;
 }
 
-.curriculum-item-read-more{
-    text-decoration: none;
-    font-weight: 700;
+.curriculum-item-read-more {
+  text-decoration: none;
+  font-weight: 700;
 }
 
-.text-color-1{
-    color: rgb(100, 200, 255);
+.text-color-1 {
+  color: rgb(100, 200, 255);
 }
 
-.text-color-2{
-    color: rgb(240, 170, 0);
+.text-color-2 {
+  color: rgb(240, 170, 0);
 }
 
-.text-color-3{
-    color: rgb(135, 0, 255);
-
+.text-color-3 {
+  color: rgb(135, 0, 255);
 }
+
+/* Container for the buttons */
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between the buttons */
+  padding: 60px 60px;
+}
+
+/* Styling the buttons */
+
+.slider{
+    padding: 60px 0px;
+}
+
+.nav-button {
+  background-color: orange;
+  border: none;
+  color: white;
+  width: 40px; /* Size of the circle */
+  height: 40px; /* Size of the circle */
+  border-radius: 50%; /* Make it circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px; /* Size of the chevron */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
+.nav-button:hover {
+  background-color: darkorange; /* Change color on hover */
+}
+
+/* Chevron inside the button */
+.chevron {
+  font-weight: bold;
+  font-family: Arial, sans-serif; /* Fallback font */
+}
+
