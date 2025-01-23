@@ -53,6 +53,11 @@ width: 1260px;
   align-items: center;
 }
 
+nav .nav-container .icon{
+  visibility: hidden;
+  /* display: none; */
+}
+
 .nav-logo {
   align-items: center;
 }
@@ -447,4 +452,52 @@ footer {
 
 /* responsive section  */
 
-@media screen and (){}
+@media screen and (max-width:576px) {
+  .nav-logo h3 , .nav-links{
+    visibility: hidden;
+    display: none;
+  }
+
+  nav{
+    border: 1px solid #FEA301;
+    padding: 12px 16px;
+  }
+
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner-image{
+    width: 100%;
+  }
+  .banner-image img{
+    width: 100%;
+  }
+
+  .banner-content{
+    max-width: 600px;
+    text-align: center;
+  }
+  .curriculum-title{
+    text-align: center;
+  }
+  .curriculum-items{
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+  .slider-buttons{
+    display: none;
+  }
+  .story1{
+    display: none;
+  }
+  .story-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-container{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-logo-title{
+    font-size: 2.1rem;
+  }
+}
